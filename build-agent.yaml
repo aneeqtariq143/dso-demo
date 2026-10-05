@@ -31,11 +31,6 @@ spec:
       command:
         - cat
       tty: true
-    - name: licensefinder
-      image: licensefinder/license_finder:latest
-      command:
-        - cat
-      tty: true
   volumes:
     - name: m2
       hostPath:
